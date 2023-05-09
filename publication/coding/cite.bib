@@ -1,0 +1,8 @@
+def binary_to_string(bits): 
+    return ''.join([chr(int(i, 2)) for i in bits]) 
+  
+bin_values = ['1101011', '1110101', '01000111'] 
+ 
+s = binary_to_string(bin_values) 
+  
+print("The string created from the binary parts : ",s)
